@@ -5,3 +5,4 @@ dotenv
 openai
 patchright
 pydantic
+psutil
