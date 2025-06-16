@@ -2,15 +2,15 @@ import asyncio
 import httpx
 
 
-# WARNING: Disable SSL verification globally (not safe for production!)
-original_httpx_client = httpx.Client
+# # WARNING: Disable SSL verification globally (not safe for production!)
+# original_httpx_client = httpx.Client
 
-class UnsafeClient(httpx.Client):
-    def __init__(self, *args, **kwargs):
-        kwargs['verify'] = False
-        super().__init__(*args, **kwargs)
+# class UnsafeClient(httpx.Client):
+#     def __init__(self, *args, **kwargs):
+#         kwargs['verify'] = False
+#         super().__init__(*args, **kwargs)
 
-httpx.Client = UnsafeClient
+# httpx.Client = UnsafeClient
 
 from langchain_groq import ChatGroq
 
