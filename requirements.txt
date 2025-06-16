@@ -6,3 +6,4 @@ openai
 patchright
 pydantic
 psutil
+posthog
