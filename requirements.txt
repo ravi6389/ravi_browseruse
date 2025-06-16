@@ -9,4 +9,4 @@ psutil
 posthog
 langchain_openai
 playwright
-chrome
+
