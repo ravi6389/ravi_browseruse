@@ -9,4 +9,5 @@ psutil
 posthog
 langchain_openai
 playwright
+screeninfo
 
