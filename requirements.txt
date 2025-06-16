@@ -4,3 +4,4 @@ streamlit
 dotenv
 openai
 patchright
+pydantic
