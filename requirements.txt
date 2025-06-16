@@ -7,3 +7,4 @@ patchright
 pydantic
 psutil
 posthog
+langchain_openai
